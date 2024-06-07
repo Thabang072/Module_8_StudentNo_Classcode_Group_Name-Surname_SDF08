@@ -1,0 +1,198 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+    margin-bottom: auto;
+    padding: 0;
+  }
+  header {
+    background-color: #814e77;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .usernam {
+    position: relative;
+    font-size: 2cap;
+    padding-left: -20px;
+  }
+  nav {
+    background-color: #9f9fb6;
+    padding: 10px 0;
+    text-align: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    padding: 0%;
+    color: #673b3b;
+    text-decoration: none;
+  }
+  .container {
+    background-color: #b1b6b9;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .introduction {
+        display: flex;
+        position: flex;
+        padding: -6%;
+        align-items: center; 
+      }
+  .intro-name {
+    background-color: #148b57;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    left: 300px;
+    font-family:'comic sans MS','Brush script MT', cursive;
+
+  }
+  .introduction img {
+    max-width: 200%;
+    height: 300px;
+    border-radius: 3cap;
+    margin-top: 20px;
+    position: relative;
+    right: 7cap;
+    top: 20px;
+  }
+  .about-me {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  
+  .about-me div {
+    background-color: #9a3333;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me div h2 {
+    grid: 0;
+    color: #333;
+    font-size: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me div p {
+    color: #666;
+  }
+  
+  footer {
+    background-color: #6c3658;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+@media only screen and (min-width: 300px) {
+    .container {
+      padding: 20px 40px;
+    }
+  
+    .about-me {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width: 367px) {
+    .container {
+      padding: 30px;
+      grid-template-columns: repeat(1 3fr);
+    }
+  
+    .about-me {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .container {
+      padding: 10px;
+
+    }
+  
+    .about-me div {
+      padding: 15px;
+    }
+  }
+.nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    background-color: #0a0a0a;
+    width: 3px;
+    height: 3px;
+    border-radius: 1em;
+    display: block;
+    position: relative;
+  }
+  
+  .hamburger:before,
+  .hamburger:after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #0a0a0a;
+    position: relative;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger:before {
+    top: -10px;
+  }
+  
+  .hamburger:after {
+    bottom: -8px;
+  }
+  
+  .nav ul {
+    display: none;
+  }
+  
+  .nav ul.show {
+    display: block;
+  }
+
+
+#hamburgerMenu {
+    background-color: #0a0a0a;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hamburger i {
+    font-size: 1.5em;
+    color: #797878;
+  }
+  
+  #hamburgerMenu:hover .hamburger i {
+    color: #797878;
+  }
+  

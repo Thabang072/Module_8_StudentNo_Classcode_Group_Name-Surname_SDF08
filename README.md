@@ -1,56 +1,48 @@
-# [SDF08] Build Your Portfolio MVP
+## Thabang's Portfolio Website
 
-![alt text](portfolio.png)
+## Description:
+Welcome to Thabang's Portfolio Website! This site serves as a platform for Thabang Selowa, a passionate Software Developer student at Code Space, to showcase his skills, projects, goals, and hobbies. Crafted with HTML, CSS, and JavaScript, this website offers an insight into Thabang's journey in the world of web development.
 
-## Steps to Complete
+## Features:
 
-- **Access the Course**: Start by going to [Build your web developer portfolio (scrimba.com)](https://scrimba.com/learn/portfolio) 
-- **Allocate Time for the Course**: The course comprises 22 lessons totaling approximately 2 hours and 26 minutes. Set aside around 3-4 hours to complete the course, including the time for building and customizing your portfolio.
-- **Build the Website**: Follow the course to build your portfolio. 
-- **Deployment:** You ARE NOT REQUIRED TO DEPLOY your app for this project submission. You will only be submitting the files on GitHub. 
-# Code Along with the Build Your Portfolio MVP 
+Navigation:
+Responsive Menu: Navigate seamlessly through the website with a user-friendly navigation menu.
+Quick Access: Links provided for Home, About, My Work, and Contact sections for easy access.
 
-This guide will walk you through the process of forking the Build Your Portfolio MVP  starter code from GitHub, and then coding along with Scrimba's course using Visual Studio Code (VSCode). By the end of this guide, you will have a local development environment set up to work on your Portfolio MVP.
+## Introduction:
 
-## Step 1: Fork the Repository
+Impressive Title: Catchy title "WEB DEVELOPER" welcomes visitors to the site.
+Mobile Responsive: Hamburger menu ensures optimal viewing across all devices.
+About Me:
 
-Forking allows you to have a personal copy of the project on their GitHub account, which you can then clone to your local machine, make changes, commit, and push back to your forked version without affecting the original repository.
+Personal Introduction: Thabang shares his story, introducing himself as an enthusiastic learner in the realm of software development.
+Learning Journey: Highlights Thabang's current focus on mastering HTML, CSS, and JavaScript.
+My Work:
 
-1. **Navigate to the Repository:** Go to the [CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_SDF08 (github.com)](https://github.com/CodeSpace-Academy/Module_8_StudentNo_Classcode_Group_Name-Surname_SDF08). Look for a button labeled **Fork** in the top-right corner of the page.
-2. **Fork the Repository:** Click the **Fork** button. This creates a copy of the repository in your own GitHub account, allowing you to make changes without affecting the original code.
+Project Showcase: Thabang proudly displays his projects with direct links to their GitHub repositories or profiles.
+Visual Appeal: Engaging image representing coding adds visual interest to this section.
 
-### Step 2: Clone Your Forked Repository
+## My Work Outline:
+Project Showcase: Thabang proudly displays his projects with direct links to their GitHub repositories or profiles.
+Visual Appeal: Engaging image representing coding adds visual interest to this section.
 
-1. On your forked repository page, click the **Code** button and copy the URL under "Clone with HTTPS".
-2. **Open** Visual Studio Code (VSCode) and access the terminal (Terminal > New Terminal).
-3. Type `git clone`, paste the URL you copied, and press **Enter**. This clones the repository to your local machine.
+Goals and Aspirations: Thabang outlines his goals, expressing his desire to design user-friendly products and foster collaboration within the developer community.
+Visual Representation: Accompanied by an inspiring image reflecting his ambitions.
 
-## Step 3: Open the Project in VSCode
+## Contact:
+Connect with Thabang: Reach out to Thabang via email or phone using the contact information provided in the footer, and also connect with Thabang on social media platforms such as GitHub, LinkedIn, or Facebook by clicking on the respective icons on the website footer.
 
-1. **Open Folder:** In VSCode, go to **File > Open Folder**.
-2. **Select the Project Folder:** Navigate to the location where you cloned the repository, select the folder, and click **Open**. Now, you should see the project files in the VSCode sidebar.
 
-## Step 4: Code Along with Scrimba
+## Viewing the Website and technology used:
+Open the index.html file in your preferred web browser to explore Thabang's portfolio.
+Use the navigation menu to seamlessly navigate between different sections.
+Contacting Thabang:
 
-The course spans roughly two and a half hours. 
+## External Libraries and Resources:
+Normalize.css: Ensures consistent styling across different browsers.
+Font Awesome: Provides a rich collection of icons for enhancing the website's visual appeal.
+Images: Sourced from reputable platforms such as Pexels and Pond5 to complement the website's content.
 
-1. **Access the Scrimba Course:** Open the [Build your web developer portfolio (scrimba.com)](https://scrimba.com/learn/portfolio) in your web browser.
-2. **Follow Along:** As you progress through the Scrimba lessons, switch back to VSCode to apply what you've learned to your local project files.
-3. **Save Your Work:** Regularly save your files in VSCode by pressing **Ctrl+S** (Windows/Linux) or **Cmd+S** (Mac).
-
-## Step 5: Test Your App Locally
-
-1. **Open the HTML File:** Right-click the `index.html` file in the VSCode sidebar and select **Open with Live Server** if you have the [Live Server extension]([Live Server Extension for Visual Studio Code | Full Tutorial (youtube.com)](https://www.youtube.com/watch?v=_Tl-6HeV0Rc&t=269s)) installed. Alternatively, you can open the file in your browser by navigating to the file location.
-2. **Test the App:** Interact with your app in the browser to test its functionality. Make adjustments in VSCode as needed.
-
-## Step 6: Commit and Push Changes
-
-Once you are done and you wish to update your GitHub fork with the changes:
-
-1. After making changes, **commit** them to your local repository. Use commands like `git add .`, `git commit -m "description of changes"`, and `git push` to push changes to your forked repository on GitHub.
-## Step 7: Submit Your Project
-
-Once you've completed and tested your app:
-
-1. **Generate a Public Link:** If you've pushed your project to GitHub, your repository URL is what you'll need.
-2. **Submit the link:** to your completed app via the Learning Management System (LMS) [**[Projects](https://learn.codespace.co.za/projects)**] tab.
+## Credits:
+Developer: Thabang Selowa
+Portfolio Website: Created with passion and dedication by Thabang.
